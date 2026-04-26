@@ -1,15 +1,14 @@
 /* 1. Define the custom font */
 @font-face {
-    font-family: 'Canteria'; 
-    src: url('CanteriaFree-Regular.otf') format('opentype'); 
+    font-family: 'ChefSignature';
+    src: url('CanteriaFree-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 /* 2. Apply it to your main name */
 .hero h1 {
     font-family: 'Canteria', 'Playfair Display', serif;
-    font-size: 4.5rem; /* Script fonts usually need to be a bit larger to be readable */
+    font-size: 3rem; /* Script fonts usually need to be a bit larger to be readable */
     font-weight: normal;
     text-transform: none; 
     margin-bottom: 20px;
