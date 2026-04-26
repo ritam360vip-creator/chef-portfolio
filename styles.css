@@ -1,3 +1,17 @@
+/* 1. Define the font */
+@font-face {
+    font-family: 'ChefSignature'; /* You can name this anything */
+    src: url('CanteriaFree-Regular.otf'); /* Make sure the filename matches exactly */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. Apply it to your name */
+.hero h1 {
+    font-family: 'ChefSignature', serif; /* Falls back to serif if it fails */
+    font-size: 3rem; /* Adjust size to fit your new font style */
+    text-transform: none; /* Keeps it from forcing ALL CAPS if your font is script-style */
+}
 :root {
     --primary: #d4af37; /* Elegant Gold */
     --bg-color: #121212; /* Deep Dark */
