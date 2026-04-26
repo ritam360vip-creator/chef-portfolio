@@ -129,3 +129,27 @@ footer h2 { margin-bottom: 10px; }
         padding: 60px 15px; /* Less padding so content fits better */
     }
 }
+/* --- Final Polish & Spacing --- */
+
+/* Adds space between the text and the email button */
+#contact p {
+    margin-bottom: 25px; 
+}
+
+/* Makes the button feel interactive on PC */
+.btn {
+    transition: all 0.3s ease; /* Ensures the movement is smooth */
+}
+
+.btn:hover {
+    background: var(--primary);
+    color: var(--bg-color);
+    transform: translateY(-3px); /* Lifts the button slightly */
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+/* Ensure the plain text email is readable */
+footer strong {
+    color: var(--primary);
+    letter-spacing: 1px;
+}
