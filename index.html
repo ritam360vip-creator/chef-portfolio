@@ -38,6 +38,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,400&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -175,15 +176,14 @@
   }
 .hero-name .first {
   display: block;
-  font-family: 'BritishClassical', serif;
-  font-style: normal;
-  /* Reduced from 5rem/11.5rem to 4rem/9rem */
-  font-size: clamp(4rem, 10vw, 9rem); 
-  font-weight: normal;
+  font-family: 'Bodoni Moda', serif;
+  font-style: italic; /* Italics in Bodoni are very classy for culinary names */
+  font-weight: 400;   /* Keeping it light ensures it doesn't look "blocky" */
+  font-size: clamp(4.5rem, 11vw, 9.5rem);
   color: var(--cream);
-  line-height: 1.1; /* Increased slightly so it doesn't feel cramped */
-  letter-spacing: 0.02em;
-  margin-bottom: -10px; /* Pulls "Mondal" slightly closer for a tighter look */
+  line-height: 0.9;
+  letter-spacing: -0.01em; 
+  text-transform: none; /* Let the natural casing of the font shine */
 }
   .hero-name .last {
     display: block;
