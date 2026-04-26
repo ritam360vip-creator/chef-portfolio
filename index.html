@@ -175,13 +175,15 @@
   }
 .hero-name .first {
   display: block;
-  font-family: 'BritishClassical', serif; 
-  font-style: normal; /* Change to normal if the Demo font isn't naturally italic */
-  font-size: clamp(5rem, 13vw, 11.5rem);
+  font-family: 'BritishClassical', serif;
+  font-style: normal;
+  /* Reduced from 5rem/11.5rem to 4rem/9rem */
+  font-size: clamp(4rem, 10vw, 9rem); 
   font-weight: normal;
   color: var(--cream);
-  line-height: 0.9;
-  letter-spacing: 0.04em;
+  line-height: 1.1; /* Increased slightly so it doesn't feel cramped */
+  letter-spacing: 0.02em;
+  margin-bottom: -10px; /* Pulls "Mondal" slightly closer for a tighter look */
 }
   .hero-name .last {
     display: block;
