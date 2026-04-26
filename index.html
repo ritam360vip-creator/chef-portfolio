@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-@font-face {
-  font-family: 'Canteria';
-  src: url('fonts/CanteriaFree-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ritam Mondal — Chef in Training</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet" />
+<style>
+  /* 1. The custom font MUST be inside the style tag! */
+  @font-face {
+    font-family: 'Canteria';
+    /* Make sure the path is correct. If the font is in the same folder as index.html, remove 'fonts/' */
+    src: url('fonts/CanteriaFree-Regular.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --gold: #c8a96e;
+    --gold-light: #e8d4a8;
+    --cream: #f0e8d8;
+    --bg: #0c0b09;
+    --bg2: #131109;
+    --wine: #5c2030;
+    --muted: #7a6e62;
+    --border: rgba(200, 169, 110, 0.18);
+  }
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
